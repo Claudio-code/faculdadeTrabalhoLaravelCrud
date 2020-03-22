@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/', 'CursoController@index');
+Route::get('/curso/criar', 'CursoController@create');
+Route::post('/curso/criar', 'CursoController@store');
+Route::post('/curso/remover/{id}', 'CursoController@destroy');
+Route::get('/curso/update/{id}', 'CursoController@update');
+Route::post('/curso/atualizar/{id}', 'CursoController@atualizar');

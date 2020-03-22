@@ -13,4 +13,6 @@ const mix = require('laravel-mix');
 
 mix
     .scripts('node_modules/bootstrap/dist/js/bootstrap.bundle.js', 'public/site/bootstrap.js')
-    .scripts('node_modules/bootstrap/dist/css/bootstrap.css', 'public/site/bootstrap/bootstrap.css');
+    .scripts('node_modules/bootstrap/dist/css/bootstrap.css', 'public/site/bootstrap.css')
+    .scripts('node_modules/materialize-css/dist/css/materialize.css', 'public/site/materialize.css')
+    .scripts('node_modules/materialize-css/dist/js/materialize.js', 'public/site/materialize.js');

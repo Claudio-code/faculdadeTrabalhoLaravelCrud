@@ -1,4 +1,6 @@
 {
     "/site/bootstrap.js": "/site/bootstrap.js",
-    "/site/bootstrap/bootstrap.css": "/site/bootstrap/bootstrap.css"
+    "/site/bootstrap.css": "/site/bootstrap.css",
+    "/site/materialize.css": "/site/materialize.css",
+    "/site/materialize.js": "/site/materialize.js"
 }
