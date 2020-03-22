@@ -5,7 +5,6 @@
     <h4 class="text-center">alterar Instrutor</h4>
     <form method="post" action="/instrutor/atualizar/{{ $instrutor->id }}">
         @csrf
-
         <input type="number" name="id" hidden value="{{ $instrutor->id }}">
         <div class="form-group">
             <label for="nomeInput">Nome</label>

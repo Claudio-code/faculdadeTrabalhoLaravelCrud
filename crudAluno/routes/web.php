@@ -32,3 +32,13 @@ Route::post('/instrutor/remover/{id}', 'InstrutorController@destroy');
 
 Route::get('/instrutor/update/{id}', 'InstrutorController@update');
 Route::post('/instrutor/atualizar/{id}', 'InstrutorController@atualizar');
+
+
+Route::get('/matricula', 'MatriculaController@index');
+Route::get('/matricula/criar', 'MatriculaController@create');
+Route::post('/matricula/criar', 'MatriculaController@store');
+
+Route::post('/matricula/remover/{id}', 'MatriculaController@destroy');
+
+Route::get('/matricula/update/{id}', 'MatriculaController@update');
+Route::post('/matricula/atualizar/{id}', 'MatriculaController@atualizar');

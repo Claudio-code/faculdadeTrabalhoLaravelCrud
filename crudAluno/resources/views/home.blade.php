@@ -17,7 +17,7 @@
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="/">Curso </a>
                     <a class="nav-item nav-link" href="/instrutor">Instrutores</a>
-                    <a class="nav-item nav-link" href="#">Matriculas</a>
+                    <a class="nav-item nav-link" href="/matricula">Matriculas</a>
                 </div>
             </div>
         </nav>
