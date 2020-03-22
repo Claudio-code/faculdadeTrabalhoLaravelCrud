@@ -17,6 +17,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'CursoController@index');
 Route::get('/curso/criar', 'CursoController@create');
 Route::post('/curso/criar', 'CursoController@store');
+
 Route::post('/curso/remover/{id}', 'CursoController@destroy');
+
 Route::get('/curso/update/{id}', 'CursoController@update');
 Route::post('/curso/atualizar/{id}', 'CursoController@atualizar');
+
+
+Route::get('/instrutor', 'InstrutorController@index');
+Route::get('/instrutor/criar', 'InstrutorController@create');
+Route::post('/instrutor/criar', 'InstrutorController@store');
+
+Route::post('/instrutor/remover/{id}', 'InstrutorController@destroy');
+
+Route::get('/instrutor/update/{id}', 'InstrutorController@update');
+Route::post('/instrutor/atualizar/{id}', 'InstrutorController@atualizar');
